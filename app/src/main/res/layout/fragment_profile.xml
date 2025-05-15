@@ -1,13 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:text="Profile Fragment"
-        android:textSize="24sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="100dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Team"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:textColor="#000000"/>
+
+        <!-- Profile Card 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:elevation="8dp"
+            android:padding="16dp"
+            android:layout_marginBottom="24dp"
+            android:gravity="center_horizontal"
+            android:background="#8ecae6">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/esta"
+                android:scaleType="centerCrop"
+                android:padding="2dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Esta Janitra Lituhayu"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Absen: 15"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:paddingTop="4dp"
+                android:paddingBottom="12dp" />
+        </LinearLayout>
+
+        <!-- Profile Card 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#8ecae6"
+            android:elevation="8dp"
+            android:padding="16dp"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/dita"
+                android:scaleType="centerCrop"
+                android:padding="2dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nandita Meddina"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Absen: 27"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:paddingTop="4dp"
+                android:paddingBottom="12dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
