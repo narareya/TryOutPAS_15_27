@@ -3,8 +3,10 @@
 
     <item
         android:id="@+id/nav_premiere"
-        android:icon="@drawable/premier"
-    android:title="Premier" />
+        android:icon="@drawable/premiere"
+    android:title="Premier"
+        
+        />
 
     <item
         android:id="@+id/nav_spain"
