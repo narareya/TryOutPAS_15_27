@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
     <item
         android:id="@+id/nav_premiere"
-        android:title="Premiere"/>
+        android:icon="@drawable/premier"
+    android:title="Premier" />
+
     <item
         android:id="@+id/nav_spain"
-        android:title="Spain"/>
+        android:icon="@drawable/laliga"
+        android:title="Spain" />
+
     <item
         android:id="@+id/nav_profile"
-        android:title="Profile"/>
+        android:icon="@drawable/team"
+        android:title="Profile" />
 </menu>
